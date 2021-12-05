@@ -1,0 +1,108 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sayt.nm.address.creator"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:4:5-79
+11-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:5:5-81
+12-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:5:22-78
+13
+14    <application
+14-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:7:4-44:19
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/AndroidManifest.xml:24:18-86
+16        android:icon="@mipmap/launcher_icon"
+16-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:9:9-45
+17        android:label="Address Creator" >
+17-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:8:9-40
+18        <activity
+18-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:10:9-38:20
+19            android:name="com.sayt.nm.address.creator.address_create.MainActivity"
+19-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:11:13-41
+20            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+20-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:14:13-163
+21            android:hardwareAccelerated="true"
+21-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:15:13-47
+22            android:launchMode="singleTop"
+22-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:12:13-43
+23            android:theme="@style/LaunchTheme"
+23-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:13:13-47
+24            android:windowSoftInputMode="adjustResize" >
+24-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:16:13-55
+25
+26            <!--
+27                 Specifies an Android theme to apply to this Activity as soon as
+28                 the Android process has started. This theme is visible to the user
+29                 while the Flutter UI initializes. After that, this theme continues
+30                 to determine the Window background behind the Flutter UI.
+31            -->
+32            <meta-data
+32-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:21:13-24:17
+33                android:name="io.flutter.embedding.android.NormalTheme"
+33-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:22:15-70
+34                android:resource="@style/NormalTheme" />
+34-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:23:15-52
+35            <!--
+36                 Displays an Android View that continues showing the launch screen
+37                 Drawable until Flutter paints its first frame, then this splash
+38                 screen fades out. A splash screen is useful to avoid any visual
+39                 gap between the end of Android's launch screen and the painting of
+40                 Flutter's first frame.
+41            -->
+42            <meta-data
+42-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:30:13-33:17
+43                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+43-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:31:15-79
+44                android:resource="@drawable/launch_background" />
+44-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:32:15-61
+45
+46            <intent-filter>
+46-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:34:13-37:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:35:17-68
+47-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:35:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:36:17-76
+49-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:36:27-74
+50            </intent-filter>
+51        </activity>
+52        <!--
+53             Don't delete the meta-data below.
+54             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+55        -->
+56        <meta-data
+56-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:41:9-43:33
+57            android:name="flutterEmbedding"
+57-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:42:13-44
+58            android:value="2" />
+58-->/Users/sam/Documents/Projects/Flutter/Night Market/address_create/android/app/src/main/AndroidManifest.xml:43:13-30
+59
+60        <activity
+60-->[com.google.android.gms:play-services-base:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+62            android:exported="false"
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+64
+65        <meta-data
+65-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+66            android:name="com.google.android.gms.version"
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+67            android:value="@integer/google_play_services_version" />
+67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/sam/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+68    </application>
+69
+70</manifest>
