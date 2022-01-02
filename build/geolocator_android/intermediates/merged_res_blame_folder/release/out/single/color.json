@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
+        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_text_light.xml",
         "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
+        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_text_dark.xml",
         "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/geolocator_android/intermediates/res/merged/release/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/res/color/common_google_signin_btn_tint.xml"
     }
 ]

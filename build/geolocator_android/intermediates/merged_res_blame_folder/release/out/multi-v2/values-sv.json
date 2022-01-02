@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/geolocator_android/intermediates/res/merged/release/values-sv/values-sv.xml",
+            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/res/merged/release/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-sv/values-sv.xml",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/geolocator_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-sv/values-sv.xml",

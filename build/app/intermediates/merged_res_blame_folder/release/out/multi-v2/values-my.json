@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_create/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-my/values-my.xml",
+            "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/app/intermediates/incremental/mergeReleaseResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
                     "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/7c879cb157fab2c9a5d74c3d70fd64e3/jetified-play-services-base-17.0.0/res/values-my/values.xml",
