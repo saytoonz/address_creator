@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 class Get {
   late Response response;
   late String progress;
-  Dio dio = new Dio();
+  Dio dio = Dio();
 
   Future<String> fromServer(String url) async {
     try {
@@ -19,10 +19,8 @@ class Get {
         onReceiveProgress: (int sent, int total) {
           String percentage = (sent / total * 100).toStringAsFixed(2);
 
-          progress = "$sent" +
-              " Bytes of " "$total Bytes - " +
-              percentage +
-              " % uploaded";
+          progress =
+              "$sent  Bytes of " "$total Bytes - " + percentage + " % uploaded";
           // print("================$progress");
         },
       );

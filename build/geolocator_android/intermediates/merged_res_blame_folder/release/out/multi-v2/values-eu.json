@@ -4,23 +4,6 @@
             "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/res/merged/release/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-eu/values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2891",
-                        "endColumns": "100",
-                        "endOffsets": "2987"
-                    }
-                },
-                {
                     "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/res/values-eu/values.xml",
                     "from": {
                         "startLines": "4",
@@ -35,6 +18,23 @@
                         "startOffsets": "1282",
                         "endColumns": "200",
                         "endOffsets": "1478"
+                    }
+                },
+                {
+                    "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2891",
+                        "endColumns": "100",
+                        "endOffsets": "2987"
                     }
                 },
                 {
@@ -60,23 +60,6 @@
             "outputFile": "/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/geolocator_android/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu/values-eu.xml",
             "map": [
                 {
-                    "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/2e94107f30f39be366a17347c2bf100b/core-1.1.0/res/values-eu/values-eu.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "2891",
-                        "endColumns": "100",
-                        "endOffsets": "2987"
-                    }
-                },
-                {
                     "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/3c8e7eb3d21ac94d08f658f6d8a1c9f3/jetified-play-services-basement-17.0.0/res/values-eu/values.xml",
                     "from": {
                         "startLines": "4",
@@ -91,6 +74,23 @@
                         "startOffsets": "1282",
                         "endColumns": "200",
                         "endOffsets": "1478"
+                    }
+                },
+                {
+                    "source": "/Users/sam/.gradle/caches/transforms-2/files-2.1/5f663b08eec19eef9a9d1af662d9025e/core-1.6.0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "2891",
+                        "endColumns": "100",
+                        "endOffsets": "2987"
                     }
                 },
                 {

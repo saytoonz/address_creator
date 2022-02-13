@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:address_create/resources/post_to_server.dart';
-import 'package:address_create/resources/view_addresses.dart';
+import 'package:address_create/view_addresses.dart';
 import 'package:address_create/urls.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -146,7 +146,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     Urls.saveAddress,
                     {
                       'lat': position?.latitude,
-                      'lng': position?.latitude,
+                      'lng': position?.longitude,
                       'address': _textEditingController.text,
                     },
                   );

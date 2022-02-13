@@ -1,4 +1,4 @@
-#Tue Dec 07 10:53:15 GMT 2021
+#Fri Feb 11 23:54:12 GMT 2022
 base.0=/Users/sam/Documents/Projects/Flutter/Night Market/address_creator/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

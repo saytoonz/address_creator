@@ -5,7 +5,7 @@ import 'package:dio/dio.dart';
 class Post {
   late Response response;
   late String progress;
-  Dio dio = new Dio();
+  Dio dio = Dio();
 
   Future<String> toServer(String url, Map<String, dynamic> data) async {
     try {
@@ -21,14 +21,12 @@ class Post {
         onSendProgress: (int sent, int total) {
           String percentage = (sent / total * 100).toStringAsFixed(2);
 
-          progress = "$sent" +
-              " Bytes of " "$total Bytes - " +
-              percentage +
-              " % uploaded";
+          progress =
+              "$sent Bytes of " "$total Bytes - " + percentage + " % uploaded";
           // print("================$progress");
         },
       );
-      print(response);
+
       if (response.statusCode == 200) {
         return response.toString();
       } else {
@@ -36,8 +34,6 @@ class Post {
             {"error": true, "msg": "Error during connection to server."});
       }
     } catch (e) {
-      print(url);
-      print(e.toString());
       return jsonEncode({
         "error": true,
         "msg": "Hmmmm 🤔"
