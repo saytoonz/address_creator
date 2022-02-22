@@ -1,4 +1,0 @@
-io/flutter/plugins/GeneratedPluginRegistrant.java
- io.flutter.plugins.GeneratedPluginRegistrant
-com/sayt/nm/address/creator/address_create/BuildConfig.java
- com.sayt.nm.address.creator.address_create.BuildConfig
